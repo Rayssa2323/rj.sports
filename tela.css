@@ -1,0 +1,149 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    
+    width: 100%;
+    background-color: rgb(243, 213, 170);
+    min-height: 15vh;
+    display: grid;
+    place-items: end;
+    font-size: 16px;
+}
+
+#menu { 
+    justify-self: end;
+    margin: 10px;
+}
+
+#logo{
+    width: 200px;
+    justify-self: start;
+}
+
+#texto {
+justify-self: start;
+}
+
+ #menu a { 
+    justify-self: start;
+    text-decoration: none;
+    color: rgb(172, 129, 129);
+    text-transform: uppercase;
+    padding: 0 10px;
+ }
+
+ #menu a:hover {
+    color: #000;
+ }
+
+ section { 
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 239, 214);
+    padding: 10px 0;
+    gap: 10px;
+    min-height: 70vh;
+    border-bottom: 0.1vh solid #000;
+    grid-template-columns: auto;
+ }
+
+ #section_futsal {
+   display: grid;
+    place-items: center;
+    background-color: rgb(255, 239, 214);
+    padding: 10px 0;
+    gap: 10px;
+    min-height: 70vh;
+    border-bottom: 0.1vh solid #000;
+    grid-template-columns: auto auto auto auto;
+ }
+
+ #section_campo {
+   display: grid;
+    place-items: center;
+    background-color: rgb(255, 239, 214);
+    padding: 10px 0;
+    gap: 10px;
+    min-height: 70vh;
+    border-bottom: 0.1vh solid #000;
+    grid-template-columns: auto auto auto auto;
+ }
+
+ #section_socyte {
+   display: grid;
+    place-items: center;
+    background-color: rgb(255, 239, 214);
+    padding: 10px 0;
+    gap: 10px;
+    min-height: 70vh;
+    border-bottom: 0.1vh solid #000;
+    grid-template-columns: auto auto auto auto;
+ }
+ 
+.socyte{
+ position:relative;
+}
+
+.socyte:hover{
+   top: -10px;
+}
+
+ .campo{
+   position: relative;
+ }
+
+ .campo:hover{
+   top: -10px;
+ }
+
+ #chuteira.futsal{
+    width: 200x;
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ #chuteira.campo {
+    width: 200px;
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ #chuteira.socyte{
+    width: 200px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+    footer { 
+        display: grid;
+        place-items: center;
+        min-height: 10vh;
+        background-color: rgb(255, 228, 196);
+    } 
+
+  #futsal.site{
+   display: grid ;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+  }
+
+  .futsal{
+   position: relative;
+  }
+
+  .futsal:hover {
+   top: -10px;
+  }
+
+  .descrição{
+   font-size: 12px;
+   color: #666;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
